@@ -1,8 +1,8 @@
 import socket
 import threading
 import logging
-from src.calc_protocol import CalcProtocol
-from src.network_utils import recv_all
+from calc_protocol import CalcProtocol
+from network_utils import recv_all
 
 HOST = '127.0.0.1'
 PORT = 6000
